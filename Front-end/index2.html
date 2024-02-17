@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a new Blog</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>Create a New Blog Post</h1>
+            <form method="post" action="http://localhost:3000/blog">
+
+                <label for="name">Name :</label>
+                <input type="text" name="name" /><br />
+
+                <label for="title">Title :</label>
+                <input type="text" name="title" /><br />
+
+                <label for="description">Description :</label>
+                <input type="text" name="description" /><br />
+
+                <input type="submit" onclick="Submit()"/>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
